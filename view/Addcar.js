@@ -18,6 +18,9 @@ class Addcar{
 
     this.add.addEventListener("click",this.handleclickadd);
 
+    this.anulare=document.querySelector(".anuleaza");
+    this.add.addEventListener("click",this.handleCancelation);
+
  
  
     }
@@ -101,6 +104,12 @@ class Addcar{
     
   
        }
+       
+    handleCancelation=(e)=>{
+        e.preventDefault();
+        new Home();
+       
+    }   
  
 
 }
