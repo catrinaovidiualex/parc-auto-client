@@ -1,0 +1,98 @@
+[{"id":1,"marca":"Cielo","pret":1650,"an":2000},{"id":2,"marca":"Opel Astra","pret":1250,"an":2008},{"id":3,"marca":"VW Passat","pret":4650,"an":2009},{"id":4,"marca":"BMW X5","pret":8550,"an":2020},{"id":5,"marca":"Dacia Logan","pret":950,"an":1999},{"id":6,"marca":"Citroen","pret":38950,"an":2019},{"id":7,"marca":"Dacia Sandero","pret":5500,"an":2016},{"id":8,"marca":"Audi A8","pret":68500,"an":2021}]
+
+
+
+[{
+  "idInchiriere": 1,
+  "idMasina": 1,
+  "idPersoana": 100,
+  "createdate": "3/29/2021"
+}, {
+  "idInchiriere": 2,
+  "idMasina": 2,
+  "idPersoana": 202,
+  "createdate": "3/2/2021"
+}, {
+  "idInchiriere": 3,
+  "idMasina": 3,
+  "idPersoana": 206,
+  "createdate": "7/24/2021"
+}, {
+  "idInchiriere": 4,
+  "idMasina": 5,
+  "idPersoana": 400,
+  "createdate": "7/1/2021"
+}, {
+  "idInchiriere": 5,
+  "idMasina": 2,
+  "idPersoana": 401,
+  "createdate": "1/3/2022"
+}, {
+  "idInchiriere": 6,
+  "idMasina": 4,
+  "idPersoana": 606,
+  "createdate": "2/12/2021"
+}, {
+  "idInchiriere": 7,
+  "idMasina": 3,
+  "idPersoana": 333,
+  "createdate": "9/12/2021"
+}, {
+  "idInchiriere": 8,
+  "idMasina": 5,
+  "idPersoana": 166,
+  "createdate": "11/24/2021"
+}]
+
+
+
+[{
+  "idPers": 1,
+  "nume": "Admin",
+  "prenume": "Admin",
+  "varsta": 0,
+  "user":"Admin",
+  "parola":"Admin_2022"
+},{
+  "idPers": 100,
+  "nume": "Popescu",
+  "prenume": "Nelu",
+  "varsta": 33,
+  "user":"PNelu",
+  "parola":"pn_2022"
+}, {
+  "idPers": 202,
+  "nume": "Ionescu",
+  "prenume": "Gelu",
+   "varsta": 23,
+  "user":"IGelu",
+  "parola":"igelu_2022"
+}, {
+"idPers": 206,
+  "nume": "Dumitrescu",
+  "prenume": "Ana",
+  "varsta": 35,
+  "user":"DAna",
+  "parola":"dana1988"
+}, {
+  "idPers": 400,
+  "nume": "Pirvu",
+  "prenume": "Mihai",
+  "varsta": 19,
+   "user":"PMihai",
+  "parola":"pm_2021"
+}, {
+  "idPers": 401,
+  "nume": "Mitran",
+  "prenume": "Diana",
+  "varsta": 29,
+  "user":"MDiana",
+  "parola":"md6662021"
+}, {
+  "idPers": 531,
+  "nume": "Pirvulescu",
+  "prenume": "Silvia",
+  "varsta": 55,
+  "user":"PSilvia",
+  "parola":"ps19800227"
+}]

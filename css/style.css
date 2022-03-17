@@ -1,0 +1,522 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+   
+    font-family: "Poppins", sans-serif;
+    margin:0px;
+}
+
+header{
+   
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+table{
+    width:80%;
+    height:100%;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
+thead tr th{
+    border-bottom: 2px solid rgb(211, 131, 10);
+    font-size:18px;
+}
+tbody tr th {
+    color:rgb(131, 82, 10);
+    text-align: left;
+    padding: 5px;
+}
+
+tbody tr:nth-child(2n){
+
+    background-color:rgb(199, 197, 197);
+    width:100px;
+    height: 30px;
+
+}
+
+tbody tr:nth-child(2n+1){
+
+    background-color:rgb(248, 247, 247);
+    width:100px;
+    height: 30px;
+
+}
+
+.linkCars{
+    color:#1c811c;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.linkCars:hover{
+    color:#030303;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+header h2{
+    background-color: rgb(46, 107, 69);
+    width:200px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    margin-top:10px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+header h1{
+   font-size: 40px;
+   font-weight: bold;
+   margin-left: 10px;
+    
+    
+}
+
+h3{
+    font-size: 20px;
+    padding:20px;
+
+}
+ 
+
+button.creeazaMasina {
+    
+    background-color: #04AA6D;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding:5px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius:5px ;
+  }
+  button.creeazaMasina:hover{
+      background-color: rgb(12, 141, 23);
+  }
+
+  button.inchiriazaMasina {
+    
+    background-color: #04AA6D;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding:5px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius:5px ;
+  }
+  button.inchiriazaMasina:hover{
+      background-color: rgb(12, 141, 23);
+  }
+
+  .containerM{
+    width:300px; 
+    display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: centeleft;
+    flex-direction: column;
+    
+    
+  }
+
+  .inputCars{
+    width:210px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    
+    
+  }
+  .buttonsAddCars{
+    width:200px;
+    display:flex;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+
+  }
+  .newCars{
+    background-color: #04AA6D;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding:5px;
+    width: 190px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius:5px ;
+    margin-bottom: 10px;
+
+  }
+
+  .newCars:hover{
+    background-color: rgb(12, 141, 23);
+}
+
+.anuleaza{
+    background-color: #04AA6D;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding:5px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius:5px ;
+  }
+
+  .anuleaza:hover{
+    background-color: rgb(12, 141, 23);
+}
+
+input{
+    
+        padding: 5px;
+        font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        border-radius: 2px;
+        border-color: rgb(231, 231, 231);
+        transition: all 0.4s ease 0s;
+}
+
+.containerModif{
+    width:300px; 
+    display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+        
+  }
+
+  .updateCars{
+    width:210px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+        
+  }
+
+  .buttonsUpdateCars{
+    width:200px;
+    display:flex;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    
+
+  }
+
+ 
+  .modifMasina{
+      margin-bottom: 10px;
+      background-color: #04AA6D;
+      border: none;
+      font-size: 18px;
+      color: #FFFFFF;
+      padding:5px;
+      width: 150px;
+      text-align: center;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      margin-left: 20px;
+      border-radius:5px ;
+  }
+
+  .modifMasina:hover{
+    background-color: rgb(12, 141, 23);
+}
+
+
+  .anuleazaModif{
+      margin-bottom: 10px;
+      background-color: #04AA6D;
+      border: none;
+      font-size: 18px;
+      color: #FFFFFF;
+      padding:5px;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      margin-left: 20px;
+      border-radius:5px ;
+  }
+
+  .anuleazaModif:hover{
+    background-color: rgb(12, 141, 23);
+}
+
+  .stergeMasina{
+    background-color: #04AA6D;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding:5px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius:5px ;
+    margin-bottom: 10px;
+  }
+
+  .stergeMasina:hover{
+    background-color: rgb(12, 141, 23);
+}
+
+
+.containerDeleteM{
+  width:300px; 
+  display: flex;
+  text-align: left;
+  align-items: left;
+  justify-content: centeleft;
+  flex-direction: column;
+  
+  
+}
+
+.divDeleteCars{
+  width:210px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 20px;
+  
+  
+}
+
+.buttonsDeleteCars{
+  width:190px;
+  display:flex;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 25px;
+
+}
+
+
+.deleteCars{
+  background-color: #04AA6D;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding:5px;
+  width: 130px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius:5px ;
+  margin-bottom: 10px;
+
+}
+
+.deleteCars:hover{
+  background-color: rgb(12, 141, 23);
+}
+
+.btnExit{
+  background-color: #04AA6D;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding:5px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius:5px ;
+}
+
+.btnExit:hover{
+  background-color: rgb(12, 141, 23);
+}
+
+.containerInchM{
+  width:300px; 
+  display: flex;
+  text-align: left;
+  align-items: left;
+  justify-content: centeleft;
+  flex-direction: column;
+  
+  
+}
+
+.divInchCars{
+  width:210px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 20px;
+  
+  
+}
+
+.buttonsRentCars{
+  width:200px;
+  display:flex;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 20px;
+
+}
+
+.inchMasina{
+  background-color: #04AA6D;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding:5px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius:5px ;
+}
+
+.inchMasina:hover{
+  background-color: rgb(12, 141, 23);
+}
+
+.inchM{
+  background-color: #04AA6D;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding:5px;
+  width: 130px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius:5px ;
+  margin-bottom: 10px;
+
+}
+
+.inchM:hover{
+  background-color: rgb(12, 141, 23);
+}
+
+.stergeInch{
+  background-color: #04AA6D;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding:5px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius:5px ;
+}
+
+.stergeInch:hover{
+  background-color: rgb(12, 141, 23);
+}
+
+
+
+.containerLogin{
+  border: 2px solid rgb(138, 179, 151);
+  background-color: #82c0a9;
+  width:300px;
+  height: 300px;
+  margin:auto;
+  margin-top:10%;
+  border-radius: 10px;
+  padding:5px;
+
+}
+.containerLogin h1{
+  color: rgb(3, 99, 11);
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.textField{
+  
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(3, 99, 11);
+  font-weight: bold;
+  
+}
+span{
+  
+  
+  transform: translate(45%,250%);
+  right:45px;
+  
+  cursor: pointer;
+}
+
+
+  
+
