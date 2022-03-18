@@ -1,3 +1,4 @@
+import Data from "../Api.js";
 import ControllerMasini from "../controller/ControlMasina.js"
 
 import Addcar from "../view/Addcar.js";
@@ -8,6 +9,9 @@ class Home{
 
 
      constructor(person){
+
+        this.data = new Data();
+
 
         this.container=document.querySelector(".container");
 
@@ -61,12 +65,12 @@ class Home{
 
      }
 
-     populateTable=()=>{
+     populateTable= async()=>{
 
-
+        let cars=await this.data.cars();
         let table=document.querySelector(".table");
 
-        this.controllMasini.list.forEach((e)=>{
+        cars.forEach((e)=>{
 
             table.innerHTML+=`
             <tr>
